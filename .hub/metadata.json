@@ -1,0 +1,1 @@
+{"slug":"primeiro-servidor","scripts":{"test":"docker-compose -f ./.hub/docker-compose.test.yml --env-file .env up --build","setup":"docker-compose -f ./.hub/docker-compose.test.yml build"}}

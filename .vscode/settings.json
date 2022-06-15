@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+      ".gitignore": true,
+      "**/.git": true,
+      "**/.vscode": true,
+      "**/env": true,
+      "**/jest.config.js": true,
+      "**/tests*": true,
+      "**/tsconfig.json": true
+    }
+  }

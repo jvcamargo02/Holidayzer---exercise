@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  app:
+    build:
+      context: ../
+      dockerfile: ./.hub/Dockerfile
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - ..:/usr/src/app
+      - /usr/src/app/node_modules/
+      - /usr/src/app/tests
+    command: npm run test
